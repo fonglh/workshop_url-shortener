@@ -1,0 +1,9 @@
+= simple_form_for @url do |f|
+  = f.input :long_url
+  = f.submit 'Shorten'
+
+#urls
+  - @urls.each do |url|
+    .url
+      = url.long_url
+      = url.short_url

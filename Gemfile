@@ -32,6 +32,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'slim-rails'
+gem 'simple_form'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
@@ -46,22 +49,22 @@ group :development, :test do
   ##### Custom
   gem 'rspec-rails'
   gem 'shoulda', require: false
-  gem 'factory_girl_rails'
-  gem 'faker'
+#  gem 'factory_girl_rails'
+#  gem 'faker'
 
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'launchy'
-  gem 'database_rewinder'
+#  gem 'database_rewinder'
 
-  gem 'guard-rspec', require: false
-  gem 'rack-livereload'
+#  gem 'guard-rspec', require: false
+#  gem 'rack-livereload'
 
   # In `config/environments/development.rb`
   # Add Rack::LiveReload to the bottom of the middleware stack with the default options.
   # config.middleware.use Rack::LiveReload
 
-  gem 'bullet'
-  gem 'brakeman'
+#  gem 'bullet'
+#  gem 'brakeman'
 end
 

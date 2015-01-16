@@ -1,5 +1,6 @@
 class HomeController < ApplicationController
   def index
-    head :ok
+    @url = Url.new
+    @urls = (Url.all).reverse
   end
 end
