@@ -49,8 +49,8 @@ group :development, :test do
   ##### Custom
   gem 'rspec-rails'
   gem 'shoulda', require: false
-#  gem 'factory_girl_rails'
-#  gem 'faker'
+  gem 'factory_girl_rails'
+  gem 'faker'
 
   gem 'capybara'
   gem 'selenium-webdriver'
